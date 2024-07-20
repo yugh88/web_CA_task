@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Files</title>
+</head>
+<body>
+    <h1>Upload Group Information and Hostel Details</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="group_info">Group Information CSV:</label>
+        <input type="file" name="group_info" id="group_info" required><br><br>
+        <label for="hostel_info">Hostel Information CSV:</label>
+        <input type="file" name="hostel_info" id="hostel_info" required><br><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
